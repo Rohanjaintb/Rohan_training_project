@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Document</title>
+</head>
+<body>
+    <h1>Searching for remaining days</h1>
+</body>
+<script>
+    // get today's date
+const today = new Date();
+
+// get next Christmas date
+const christmas = new Date(today.getFullYear(), 11, 25);
+
+// if Christmas has already passed this year, get next year's Christmas date
+if (today.getMonth() === 11 && today.getDate() > 25) {
+  christmas.setFullYear(christmas.getFullYear() + 1);
+}
+
+// calculate the difference in days
+const diff = Math.ceil((christmas - today) / (1000 * 60 * 60 * 24));
+
+// output the result
+console.log(`There are ${diff} days left until Christmas!`);
+
+</script>
+</html>

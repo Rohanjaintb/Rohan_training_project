@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1> Date Month Year</h1>
+</body>
+<script>
+    const date = new Date();
+
+const day = date.getDate().toString().padStart(2, '0');
+const month = (date.getMonth() + 1).toString().padStart(2, '0');
+const year = date.getFullYear().toString();
+
+const dateFormat1 = `${month}-${day}-${year}`;
+const dateFormat2 = `${month}/${day}/${year}`;
+const dateFormat3 = `${day}-${month}-${year}`;
+const dateFormat4 = `${day}/${month}/${year}`;
+
+console.log(`mm-dd-yyyy: ${dateFormat1}`);
+console.log(`mm/dd/yyyy: ${dateFormat2}`);
+console.log(`dd-mm-yyyy: ${dateFormat3}`);
+console.log(`dd/mm/yyyy: ${dateFormat4}`);
+
+</script>
+</html>

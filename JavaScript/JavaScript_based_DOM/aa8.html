@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Example</title>
+</head>
+<body>
+
+	<form id="form">
+		<label for="name-input">Name:</label>
+		<input type="text" id="name-input" name="name"><br><br>
+
+		<label for="email-input">Email:</label>
+		<input type="email" id="email-input" name="email"><br><br>
+
+		<button type="submit">Submit</button>
+        
+	</form>
+<script>
+    document.getElementById("form");
+    addEventListener("submit", function(event) {
+        event.preventDefault();
+		alert("Rohan "+" E-mail:")	;});
+</script>
+</body>
+</html>
