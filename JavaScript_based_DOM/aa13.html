@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List Example</title>
+	<style>
+		.selected {
+			background-color: rgb(33, 213, 141);
+		}
+	</style>
+</head>
+<body>
+
+	<ul id="color">
+		<li>Green</li>
+		<li>Red</li>
+		<li>Blue</li>
+		
+	</ul>
+
+	<script>
+		var listItems = document.querySelectorAll("#color li");
+		for (var i = 0; i < listItems.length; i++) {
+			listItems[i].addEventListener("click", function() {
+				var selected = document.querySelector(".selected");
+				if (selected) {
+					selected.classList.remove("selected");
+				}
+				this.classList.add("selected");
+			});
+		}
+	</script>
+
+</body>
+</html>
