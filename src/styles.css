@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://thumbs.gfycat.com/BareOrderlyCobra.webp");
+    background-position: cover ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+  }
+  header {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  h2:hover{
+    color:coral;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 30px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,109 @@
+.App {
+    text-align: center;
+  }
+  body{
+    background-image: url("https://i.pinimg.com/originals/09/00/ee/0900ee030d96065449beaa7eade5ea0e.gif");
+    
+}
+  
+  header {
+    padding: 20px; 
+    background-color: cadetblue;
+    background-image: url(https://i.gifer.com/80qW.gif);
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #ff6f61;
+    font-size: 40px;
+   
+  }
+  
+  main {
+    
+    padding: 50px;
+  }
+  
+  .hero {
+    background-color: #ffcc5c;
+    padding: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #fff;
+    border: none;
+    color: #ff6f61;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6f61;
+    color: #fff;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery img {
+    margin-bottom: 20px;
+    width:400px;
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ff6f61;
+    box-shadow: 0px 0px 10px 10px rgb(14, 208, 30);
+  }
+  
+  footer {
+    background-color:lightseagreen;
+    padding: 20px;
+  }
+  #logo{
+    width:100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 20px rgb(20, 2, 19);
+    padding: 3px;
+    background-color: rgb(157, 157, 5);
+    margin-top: 0;
+  }
+  #Gif{
+    width:1220px;
+    margin-top: 3px;
+    height: 600px;
+    padding: 5px;
+    background-color: cadetblue;
+  }
+  h4{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 450px;
+    font-size: 40px;
+    color: chartreuse;
+    font-weight: bold;
+    font-family:cursive;
+    font-style: italic;
+  }
+  #image1{
+    transition: 2s;
+  }
+  #image1:hover{
+    transform: rotateY(180deg);
+
+  }

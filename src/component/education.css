@@ -1,0 +1,194 @@
+body{
+    background-image: url("https://cdn.dribbble.com/users/1003944/screenshots/15741863/media/96a2668dbf0b4da82efca00d60011ca8.gif");
+}
+#logo{
+    width:400px;
+}
+header{
+    display: flex;
+    padding: 35px;
+    background-color: rgba(26, 135, 165, 0.575);
+}
+ul{
+    position: absolute;
+    display: flex;
+    gap:20px;
+    margin-left: 140px;
+    top: 80px;
+}
+ul:hover{
+    color: coral;
+}
+#landing{
+    width:1200px;
+    margin-top: 10px;
+    border-radius: 10%;
+    height: 600px;
+}
+#join{
+    position: absolute;
+    top:700px;
+    left:180px;
+    background-color: blue;
+    border-radius: 20px 20px 20px 20px;;
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    font-size: 12px;
+}
+#join:hover{
+    background-color: rgba(166, 212, 38, 0.783);
+}
+#popular{
+font-size: 38px;
+text-align: center;
+font-weight: bold;
+}
+#learning{
+    display: flex;
+    gap:30px;
+}
+.course1{
+    background-color: rgb(255, 255, 255);
+    width:350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20%;
+   
+}
+#img1{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add1{
+    background-color: rgb(32, 141, 171);
+    width: 250px;
+    height: 40px;
+}
+#cost1{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.course2{
+    background-color: rgb(255, 255, 255);
+    width:350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20%;
+
+   
+}
+#img2{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add2{
+    background-color: rgb(32, 34, 171);
+    width: 250px;
+    height: 40px;
+}
+#cost2{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.course3{
+    background-color: rgb(255, 255, 255);
+    width:350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20%;
+}
+#img3{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add3{
+    background-color: rgb(32, 141, 171);
+    width: 250px;
+    height: 40px;
+}
+#cost3{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#life{
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(63, 59, 56);
+    font-weight: bold;
+    position: absolute;
+    width: 400px;
+    top:1400px;
+    left: 200px;
+}
+#picks{
+    background-position: center center;
+    width: 1200px;
+    height: 600px;
+    margin-top: 40px;
+}
+#lines{
+    position: absolute;
+    top:1650px;
+    width:400px;
+    left: 210px;
+    font-size: 20px;
+    color: darkcyan;
+}
+#join1{
+    position: absolute;
+    background-color: blue;
+    width:120px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    left:270px;
+    top:1850px;
+    color: aliceblue;
+}
+#join1:hover{
+    background-color: rgb(155, 194, 27);
+}
+#say{
+    background-color:rgba(124, 187, 189, 0.5);
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+#what{
+ padding-top: 100px;
+ font-size: 50px;
+ color: rgb(38, 80, 82);
+ font-style: italic;
+}
+#on{
+width: 600px;
+margin-left: 300px;
+color: rgba(2, 78, 78, 0.817);
+font-size: 20px;
+}
+footer{
+    padding: 20px;
+    background-color: darkgrey;
+    margin-top: 5px;
+    text-align: center;
+}
+.course1:hover{
+    transform: scale(0.9);
+}
+.course2:hover{
+    transform: scale(0.9);
+}
+.course3:hover{
+    transform: scale(0.9);
+}
+a:hover{
+    color: darkorange;
+}
