@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Cookie|Dancing+Script:400,500,600,700|Indie+Flower|Satisfy&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Cookie', cursive; */
+
+body {
+  background-color: #f7f7f7;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  font-size: 60px;
+  
+}
+
+.container-md {
+  background-image: url('/to-do-list/images/watercolor.png');
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  width: 600px;
+  height: 100%;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+h1 span{
+  color: #6e4da5;
+  font-size: 90px;
+}
+
+form input {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.added-new-task {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  color: #020201;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.to-do-item-name {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.delete-task {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  line-height: 10px;
+}
+
+.delete-task:hover {
+  background-color: #9d98ae5d;
+}
+
+.tasks-text {
+  color: #020201;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+  outline: none;
+}
+ /* Start of creating a custom checkbox */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color:#eee;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #9f85c9;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #624fe8;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox-container .checkmark:after {
+  left: 10px;
+  top: 6px;
+  width: 6px;
+  height: 10px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* End of creating a custom checkbox */
+
+.add-new-one {
+  margin-left: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+  background: transparent;
+  color: #020201;
+  width: auto;
+  border: 1px solid #7a62a1;
+}
+
+.btn-secondary:hover {
+  background-color: #9d98aeb7;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+@media (max-width:767px) {
+  .container-md {
+    width: 100%;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
