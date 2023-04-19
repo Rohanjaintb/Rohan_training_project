@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dashboard</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-100" style="background-image:url(https://j.gifs.com/y491Pj.gif); background-size:90%;">
+   <<header class="bg-darkcyan-400 p-5" style="background-color: darkcyan; display: flex; align-items: center;">
+      <h1 class="text-center text-5xl font-bold text-white" style="background-color: darkcyan;margin-left:450px;">Bank History</h1>
+      <a href="customer.html" style="color: brown; font-size: 30px; margin-left: auto;">View Customer Data</a>
+    </header>
+   <main>
+      <section>
+         <p class="text-center text-2xl m-3" style="color:rgb(43, 226, 80)">Your Account Transaction Summery</p>
+      <div class="grid grid-cols-3 gap-4 w-6/12 mx-auto text-white">
+         <div class="bg-teal-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Deposit</h4>
+            <h1 class="text-5xl">₹<span  id="deposit-total">00</span></h1>
+         </div>
+         <div class="bg-red-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Withdraw</h4>
+            <h1 class="text-5xl">₹<span id="withdraw-total">00</span></h1>
+         </div>
+         <div class="bg-gray-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Balance</h4>
+            <h1 class="text-5xl">₹<span id="total-balance">00</span></h1>
+         </div>
+         <div class="bg-pink-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Loan</h4>
+            <h1 class="text-5xl">₹<span id="total-loan">00</span></h1>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="grid grid-cols-2 gap-4 w-6/12 mx-auto mt-12">
+         <div class="bg-purple-400 p-8 rounded-xl">
+            <h4 class="text-3xl font-bold text-gray-700"> Deposit</h4>
+            <input class="rounded w-8/12 block mb-3 mx-auto px-2 py-1 mt-4 ml-16" type="text" name="" id="deposit-field" placeholder="$ Amount you want to Deposit">
+            <button id="deposit-btn" class="bg-gray-500 hover:bg-black px-3 py-1 rounded block ml-16 mt-5 text-white">Deposit</button>
+         </div>
+         <div class="bg-lime-400 p-8 rounded-xl">
+            <h4 class="text-3xl font-bold text-gray-700">Withdraw</h4>
+            <input class="rounded w-8/12 block mb-3 mx-auto px-2 py-1 mt-4 ml-16" type="text" name="" id="withdraw-field" placeholder="$ Amount you want to Withdraw">
+            <button id="withdraw-btn" class="bg-gray-500 hover:bg-black px-3 py-1 rounded block ml-16 mt-5 text-white">Withdraw</button>
+         </div>
+         <div class="bg-pink-400 p-8 rounded-xl">
+            <h4 class="text-3xl font-bold text-gray-700">Take a Loan</h4>
+            <input class="rounded w-8/12 block mb-3 mx-auto px-2 py-1 mt-4 ml-16" type="text" name="" id="loan-field" placeholder="$ Amount you want to Withdraw">
+            <button id="loan-btn" class="bg-gray-500 hover:bg-black px-3 py-1 rounded block ml-16 mt-5 text-white">Loan</button>
+         </div>
+         <div class="bg-yellow-400 p-8 rounded-xl">
+            <h4 class="text-3xl font-bold text-gray-700">Calculate Loan</h4>
+            <button id="claculate-btn" class="bg-green-500 hover:bg-black px-3 py-1 rounded block ml-16 mt-5 text-white" style="width: 100px;margin-top:40px;">Calculate</button>
+         </div>
+         
+      </div>
+   </section>
+   </main>
+
+
+
+
+   <script src="js/deposit.js"></script>
+   <script src="js/withdraw.js"></script>
+   <script src="new.js"></script>
+   <script src="loan.js"></script>
+</body>
+</html>
