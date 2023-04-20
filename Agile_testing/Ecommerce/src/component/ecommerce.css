@@ -1,0 +1,281 @@
+
+body{
+    background-color: aquamarine;
+}
+.products{
+    display: flex;
+    
+    gap:30px;
+}
+.products1{
+    display: flex;
+    
+    gap:60px;
+}
+.product1{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+   
+}
+#img1{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add1{
+    background-color: blue;
+    width: 250px;
+    height: 40px;
+}
+#cost1{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.product2{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+    
+   
+}
+#img2{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add2{
+    background-color: rgb(255, 0, 0);
+    width: 250px;
+    height: 40px;
+}
+#cost2{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.product3{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+    
+   
+}
+#img3{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add3{
+    background-color: rgb(0, 255, 89);
+    width: 250px;
+    height: 40px;
+}
+#cost3{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product4{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+   
+}
+#img4{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add4{
+    background-color: rgb(117, 182, 32);
+    width: 250px;
+    height: 40px;
+}
+#cost4{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.product5{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+   
+}
+#img5{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add5{
+    background-color: rgb(159, 12, 113);
+    width: 250px;
+    height: 40px;
+}
+#cost5{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.product6{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+   
+}
+#img6{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add6{
+    background-color: rgb(132, 33, 207);
+    width: 250px;
+    height: 40px;
+}
+#cost6{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.product7{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+   
+}
+#img7{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add7{
+    background-color: rgb(175, 146, 30);
+    width: 250px;
+    height: 40px;
+}
+#cost7{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+.product8{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    height: 345px;
+    text-align: center;
+   
+}
+#img8{
+    padding-top: 10px;
+    width:200px;
+    height:200px;
+}
+#add8{
+    background-color: rgb(32, 141, 171);
+    width: 250px;
+    height: 40px;
+}
+#cost8{
+    color: rgb(94, 160, 27);
+    font-size: 20px;
+    font-weight: bold;
+}
+header{
+    padding: 40px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  li {
+    margin-left: 20px;
+    
+  }
+  a{
+   
+    position: relative;
+  color:rgb(209, 14, 14);
+  text-decoration: none;
+  font-weight: bold;
+  }
+  a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #9fc71d;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out 0s;
+  }
+  
+  a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .product1:hover{
+    transform: scale(0.9);
+  }
+  .product2:hover{
+    transform: scale(0.9);
+  }
+  .product3:hover{
+    transform: scale(0.9);
+  }
+  .product4:hover{
+    transform: scale(0.9);
+  }
+  .product5:hover{
+    transform: scale(0.9);
+  }
+  .product6:hover{
+    transform: scale(0.9);
+  }
+  .product7:hover{
+    transform: scale(0.9);
+  }
+  .product8:hover{
+    transform: scale(0.9);
+  }
+  #pp{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  footer{
+    padding: 20px;
+    background-color: cadetblue;
+  }
+  #page{
+    width: 1200px;
+    height: 500px;
+    margin-top: 10px;
+  }
+  form{
+    text-align: center;
+  }
